@@ -60,24 +60,24 @@ const home: Home = {
   label: "Home",
   title: `Jenil Bhingradiya – Advanced Shopify Developer`,
   description: `Helping brands turn ideas into fast, scalable, and beautifully crafted websites.`,
-  headline: <>I build high-converting Shopify Stores.</>,
+  headline: <>Jenil Bhingradiya</>,
   featured: {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">Shopify Development</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
-          Featured work
+          Client work
         </Text>
       </Row>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "/work/",
   },
   subline: (
     <>
-  I'm Jenil, a Shopify developer specializing in{" "}
-  <Text as="span" size="xl" weight="strong">custom Shopify themes</Text>{" "}and performance-focused web experiences.
+    I help e-commerce brands grow through fast, conversion-focused Shopify stores and custom theme development.
+    <div>{/*I'm Jenil, a Shopify developer specializing in{" "} <Text as="span" size="xl" weight="strong">custom Shopify themes</Text>{" "}and performance-focused web experiences.*/}</div>
 </>
   ),
 };
@@ -85,7 +85,7 @@ const home: Home = {
 const about: About = {
   path: "/about",
   label: "About",
-  title: `About – ${person.name}`,
+  title: `Learn More About Me`,
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
