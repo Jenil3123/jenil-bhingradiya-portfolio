@@ -221,6 +221,11 @@ export default function About() {
                     <Text variant="body-default-s" onBackground="brand-weak" marginBottom="m">
                       {experience.role}
                     </Text>
+                    {experience.techStack && (
+                    <Text marginBottom="m">
+                      <strong>Tech stack:</strong> {experience.techStack}
+                    </Text>
+                  )}
                     <Column as="ul" gap="16">
                       {experience.achievements.map(
                         (achievement: React.ReactNode, index: number) => (

@@ -2,14 +2,14 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  firstName: "Jenil",
+  lastName: "Bhingradiya",
+  name: `Jenil Bhingradiya`,
+  role: "Frontend & Shopify Developer",
+  avatar: "/images/jenill.png",
+  email: "jenil3123@gmail.com",
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Hindi", "Gujarati"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -25,13 +25,13 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/Jenil3123",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://in.linkedin.com/in/jenil-bhingradiya-07b46b272",
     essential: true,
   },
   {
@@ -49,7 +49,7 @@ const social: Social = [
   {
     name: "Email",
     icon: "email",
-    link: `mailto:${person.email}`,
+    link: "mailto:jenil3123@gmail.com",
     essential: true,
   },
 ];
@@ -58,9 +58,9 @@ const home: Home = {
   path: "/",
   image: "/images/og/home.jpg",
   label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  title: `Jenil Bhingradiya – Advanced Shopify Developer`,
+  description: `Helping brands turn ideas into fast, scalable, and beautifully crafted websites.`,
+  headline: <>I build high-converting Shopify Stores.</>,
   featured: {
     display: true,
     title: (
@@ -76,7 +76,8 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+  I'm Jenil, a Shopify developer specializing in{" "}
+  <Text as="span" size="xl" weight="strong">custom Shopify themes</Text>{" "}and performance-focused web experiences.
 </>
   ),
 };
@@ -102,9 +103,12 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        <Text>
+        I build custom Shopify themes and modern frontend interfaces with a strong focus on clean, scalable architecture.
+      </Text>
+      <Text>
+        My work prioritizes performance, usability, and high-quality user experiences that drive business growth.
+      </Text>
       </>
     ),
   },
@@ -113,17 +117,26 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Freelancing",
+        timeframe: "October/2025 - Present",
+        role: "Freelance Shopify Developer",
+        techStack: "Shopify, Liquid, JavaScript, HTML, CSS, Git, Shopify CLI",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Built and customized Shopify themes for small and mid-sized businesses, focusing on
+            clean UI, performance, and scalability.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Developed custom Shopify sections, product templates, and Liquid logic tailored to
+            unique brand and business requirements.
+          </>,
+          <>
+            Optimized storefront performance by improving image handling, script loading, and
+            theme structure.
+          </>,
+          <>
+            Worked directly with clients to translate business goals into conversion-focused
+            Shopify storefronts.
           </>,
         ],
         images: [
@@ -137,9 +150,9 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Codestrokes Solution",
+        timeframe: "April/2025 - September/2025",
+        role: "Shopify Developer",
         achievements: [
           <>
             Developed a design system that unified the brand across multiple platforms, improving
