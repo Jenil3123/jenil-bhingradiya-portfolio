@@ -14,6 +14,9 @@ import {
   HiOutlineRocketLaunch,
 } from "react-icons/hi2";
 
+import { HiOutlineBuildingStorefront } from "react-icons/hi2";
+import { SiHtml5, SiCss3 } from "react-icons/si";
+
 import {
   PiHouseDuotone,
   PiUserCircleDuotone,
@@ -27,6 +30,7 @@ import {
   SiNextdotjs,
   SiFigma,
   SiSupabase,
+  SiShopify
 } from "react-icons/si";
 
 import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
@@ -58,6 +62,10 @@ export const iconLibrary: Record<string, IconType> = {
   nextjs: SiNextdotjs,
   supabase: SiSupabase,
   figma: SiFigma,
+  shopify: SiShopify,
+  ecommerce: HiOutlineBuildingStorefront,
+  html: SiHtml5,
+  css: SiCss3,
   facebook: FaFacebook,
   pinterest: FaPinterest,
   whatsapp: FaWhatsapp,

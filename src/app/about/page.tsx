@@ -135,7 +135,7 @@ export default function About() {
                 <Icon paddingLeft="12" name="calendar" onBackground="brand-weak" />
                 <Row paddingX="8">Schedule a call</Row>
                 <IconButton
-                  href={about.calendar.link}
+                  href= "https://calendly.com/jenil3123/30min"
                   data-border="rounded"
                   variant="secondary"
                   icon="chevronRight"

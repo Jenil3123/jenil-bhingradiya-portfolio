@@ -44,7 +44,7 @@ const social: Social = [
     name: "Threads",
     icon: "threads",
     link: "https://www.threads.com/@once_ui",
-    essential: true,
+    essential: false,
   },
   {
     name: "Email",
@@ -85,7 +85,7 @@ const home: Home = {
 const about: About = {
   path: "/about",
   label: "About",
-  title: `Learn More About Me`,
+  title: `Know More About Me`,
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
@@ -141,12 +141,6 @@ const about: About = {
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
         ],
       },
       {
@@ -155,12 +149,45 @@ const about: About = {
         role: "Shopify Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Developed custom Shopify theme features using Liquid, JavaScript, and Shopify APIs to support dynamic and scalable storefront functionality.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Implemented data-driven sections using Shopify metafields and metaobjects, reducing content update time and improving maintainability.
+          </>,
+          <>
+            Delivered end-to-end Shopify solutions for multiple client stores, focusing on performance, scalability, and clean architecture.
+          </>,
+          <>
+            Built responsive, conversion-focused UI components that enhanced user experience and engagement across devices.
+          </>,
+          <>
+            Reduced reliance on third-party apps by developing custom in-house features, improving site performance and lowering operational costs.
+          </>,
+          <>
+            Debugged and resolved complex theme and app conflicts, ensuring stable production deployments.
+          </>,
+          <>
+            Collaborated closely with designers, clients, and cross-functional teams to deliver solutions aligned with business and revenue goals.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Aerocube Technology",
+        timeframe: "July/2024 - January/2025",
+        role: "Web Developer Intern",
+        achievements: [
+          <>
+            Assisted in developing and maintaining responsive web pages using HTML, CSS, JavaScript, and modern frontend practices.
+          </>,
+          <>
+            Collaborated with senior developers to implement UI components and page layouts based on design requirements.
+          </>,
+          <>
+            Gained hands-on experience in debugging, code optimization, and cross-browser compatibility.
+          </>,
+          <>
+            Supported backend integration tasks and learned the fundamentals of API usage and data flow in web applications.
           </>,
         ],
         images: [],
@@ -172,12 +199,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Bachelor’s Degree — Computer Engineering",
+        description: <>Studied core computer science concepts including data structures, web development, and software architecture.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Professional Training — Web Development & Digital Commerce",
+        description: <>Learned Shopify theme development, UI/UX implementation, and e-commerce best practices.</>,
       },
     ],
   },
@@ -186,36 +213,40 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Shopify",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Build scalable Shopify storefronts using Liquid, metafields, and metaobjects, with a focus on performance, reusability, and conversion-driven UI.</>
         ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
+            name: "Shopify",
+            icon: "shopify",
           },
+          {
+            name: "E-commerce",
+            icon: "ecommerce",
+          }
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
+            src: "/images/projects/project-01/asligems.png",
+            alt: "Asli Gems",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
+            src: "/images/projects/project-01/naturallypahadi.png",
+            alt: "Naturally Pahadi",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        title: "Next.js",
+        title: "Frontend Engineering",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Develop responsive, accessible interfaces using modern frontend technologies, ensuring clean architecture and consistent user experience across devices.</>
         ),
         tags: [
           {
@@ -223,23 +254,16 @@ const about: About = {
             icon: "javascript",
           },
           {
-            name: "Next.js",
-            icon: "nextjs",
+            name: "HTML",
+            icon: "html",
           },
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: "CSS",
+            icon: "css",
           },
         ],
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
     ],
   },
