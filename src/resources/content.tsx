@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I help e-commerce brands grow through fast, conversion-focused Shopify stores and custom theme development.
+    Shopify Developer Helping Brands Convert Visitors Into Buyers.
     <div>{/*I'm Jenil, a Shopify developer specializing in{" "} <Text as="span" size="xl" weight="strong">custom Shopify themes</Text>{" "}and performance-focused web experiences.*/}</div>
 </>
   ),
