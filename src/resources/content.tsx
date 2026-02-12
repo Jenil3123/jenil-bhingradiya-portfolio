@@ -292,44 +292,63 @@ const gallery: Gallery = {
   label: "Visuals",
   title: `Photo gallery – ${person.name}`,
   description: `A photo collection by ${person.name}`,
-  // Images by https://lorant.one
-  // These are placeholder images, replace with your own
   images: [
-    {
-      src: "/images/gallery/Krishnam Jewels.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/Asligems.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/Jhonny's Jewelry.png",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/Hotworx.png",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/Kalakrutii.png",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/Pawblaze.png",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/mmsilver.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
+        {
+        src: "/images/gallery/Krishnam Jewels.jpg",
+        alt: "Krishnam Jewels website",
+        orientation: "horizontal",
+        title: "Krishnam Jewels",
+        subtitle: "Luxury Jewelry Brand",
+        href: "https://krishnamjewels.com",
+      },
+      {
+        src: "/images/gallery/Asligems.jpg",
+        alt: "Asli Gems website",
+        orientation: "horizontal",
+        title: "Asli Gems",
+        subtitle: "Fine Gemstone & Jewelry Store",
+        href: "https://asligems.com",
+      },
+      {
+        src: "/images/gallery/Jhonny's Jewelry.png",
+        alt: "Johnny’s Jewelry website",
+        orientation: "horizontal",
+        title: "Johnny’s Jewelry",
+        subtitle: "Modern Jewelry & Accessories",
+        href: "https://johnnysjewelry.com",
+      },
+      {
+        src: "/images/gallery/Hotworx.png",
+        alt: "Hotworx website",
+        orientation: "horizontal",
+        title: "Hotworx",
+        subtitle: "Fitness & Wellness Platform",
+        href: "https://www.hotworx.nextdaynutra.com",
+      },
+      {
+        src: "/images/gallery/Pawblaze.png",
+        alt: "PawBlaze website",
+        orientation: "horizontal",
+        title: "PawBlaze",
+        subtitle: "Shopify Pet Care Store",
+        href: "https://pawblaze.in",
+      },
+      {
+        src: "/images/gallery/mmsilver.jpg",
+        alt: "MM Silver website",
+        orientation: "horizontal",
+        title: "MM Silver",
+        subtitle: "Sterling Silver Jewelry",
+        href: "https://mmsilver.in",
+      },
+      {
+        src: "/images/gallery/Kalakrutii.png",
+        alt: "Kalakrutii website",
+        orientation: "horizontal",
+        title: "Kalakrutii",
+        subtitle: "Handcrafted Jewelry Brand",
+        href: "https://kalakruti.in",
+      }
   ],
 };
 
